@@ -1,0 +1,63 @@
+* {
+  font-family: Raleway, sans-serif;
+  /* Raleway is the default font; if this font
+  can't be used, then it defaults to sans */
+}
+
+body {
+  margin: 0px;
+}
+
+h1 {
+  color: #E13A63
+}
+
+h4 {
+  color: #E13A63
+}
+
+nav {
+  background-color: black;
+  padding: 0% 15%;
+
+  /* Changes the nav bar to black */
+}
+nav img {
+  width: 128px;
+  height: 128px;
+  /* Resizes the logo inside the nav bar */
+}
+nav li {
+  list-style-type: none;
+  /* Removes bullet points from nav bar links */
+  display: inline-block;
+  padding-right: 1%;
+}
+
+nav li a:hover {
+  color: grey;
+}
+nav li a {
+  text-decoration: none;
+  color: white;
+
+  /* Removes hyperlink styling from nav bar links
+  and recolours them */
+}
+
+.profile {
+  width: 256px;
+  height: 256px;
+  border-radius: 49%
+}
+
+.screenshot {
+  height: 256px;
+}
+
+section {
+  padding: 0% 15%;
+  /* Adds empty space to the side of the page;
+  1 value effects all sides,
+  2 values effect top&bottom and left&right */
+}

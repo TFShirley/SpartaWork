@@ -1,0 +1,13 @@
+img {
+  height: 200px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

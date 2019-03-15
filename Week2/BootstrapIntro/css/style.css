@@ -1,0 +1,28 @@
+.navbar {
+  background-color: hotpink;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.row-cards {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.tron {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  text-align: left;
+}
+
+.tron .card {
+  background-color: sienna;
+}
+
+/* .tron card-title {
+  padding: 20;
+} */

@@ -1,0 +1,22 @@
+*{
+  font-family: monospace;
+}
+
+.lime_background {
+  background-color: lime;
+}
+
+#div1 {
+  padding: 50px;
+  background-color: gainsboro;
+}
+
+#div2 {
+  padding: 50px;
+  background-color: fuchsia;
+}
+
+#div3 {
+  padding: 50px;
+  background-color: lightsteelblue;
+}

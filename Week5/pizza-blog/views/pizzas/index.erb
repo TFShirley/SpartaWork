@@ -1,0 +1,12 @@
+
+
+<% @pizzas.each do |pizza| %>
+  <div class="">
+    <h3>
+      <a href="/<%= pizza[:id] %>">
+        <%= pizza[:title] %>
+      </a>
+    </h3>
+    <p> <%= pizza[:body] %> </p>
+  </div>
+<% end %>

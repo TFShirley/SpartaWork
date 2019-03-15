@@ -1,0 +1,15 @@
+<% if @message %>
+  <h2>You're a first time customer!!!!!</h2>
+<% end %>
+
+<div class="row">
+  <% @sandwiches.each do |sandwich| %>
+    <div class="card col-4" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title"><%= sandwich.title %></h5>
+        <p class="card-text"><%= sandwich.description %></p>
+        <a href="/<%= sandwich.id %>" class="btn btn-primary">View Sandwich</a>
+      </div>
+    </div>
+  <% end %>
+</div>

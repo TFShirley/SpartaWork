@@ -1,0 +1,16 @@
+<% if @message %>
+  <h2>"You're a first-time customer."</h2>
+<% end %>
+
+<h1>Welcome to Club Sandwich</h1>
+
+<% @sandwiches.each do |sandwich| %>
+  <div class="content">
+    <h3>
+      <a href="/<%= sandwich.id %>">
+        <%= sandwich.title %>
+      </a>
+    </h3>
+    <cite><%= sandwich.description %></cite>
+  </div>
+<% end %>

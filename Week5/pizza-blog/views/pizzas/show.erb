@@ -1,0 +1,14 @@
+<h1><%= @pizza[:title] %></h1>
+
+<div class="">
+  <%= @pizza[:desc]%>
+</div>
+
+<button type="button" name="button">
+  <a href="/<%= @pizza[:id] %>/edit">Edit PIZZA post</a>
+</button>
+
+<form class="" action="/<%= @pizza[:id] %>" method="post">
+  <input type="hidden" name="_method" value="Delete">
+  <input type="submit" value="DELET THIS">
+</form>

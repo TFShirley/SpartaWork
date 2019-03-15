@@ -1,0 +1,12 @@
+.screenshot {
+  /* padding-top:30px; */
+  width: 100%;
+}
+
+.card {
+  display: inline-block;
+  width: 30%;
+  border: 2px solid #E13A63;
+  text-align: center;
+  margin-left: 2%;
+}

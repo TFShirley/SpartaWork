@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 text-center">
+      <h1 class="title">List of all cards</h1>
+    </div>
+  </div>
+
+  <% @cards.each do |card| %>
+    <% if card['multiverseid'] %>
+      <div class="card">
+        <div class="img-container">
+          <img class="text-center" src="<%= card['imageUrl'] %>" alt="" style="width:60%; margin:auto;">
+        </div>
+        <div class="card-container">
+          <h4><b><%= card['name'] %></b></h4>
+          <a class="link" href="/mtg/<%= card['multiverseid'] %>">More Info</a>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+
+</div>

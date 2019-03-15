@@ -1,0 +1,12 @@
+img {
+  width: 600px;
+}
+
+body {
+  font-family: monospace;
+  background: gainsboro;
+}
+
+.logo {
+  width: 100px;
+}

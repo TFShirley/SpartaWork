@@ -1,0 +1,28 @@
+<form class="" action="/<%= @sandwich.id %>" method="post">
+
+  <% if @sandwich.id%>
+    <input type="hidden" name="_method" value="put">
+  <% end %>
+
+  <div class="form-group">
+    <label>Title</label>
+    <input type="text" name="title" value="<%= @sandwich.title %>" placeholder="Name of Sandwich">
+  </div>
+
+  <div class="form-group">
+    <label for="">Description</label>
+    <input type="textarea" name="description" value="<%= @sandwich.description %>">
+  </div>
+
+  <% if !@sandwich.id %>
+    <!-- New Button -->
+    <div class="form-group">
+      <input type="submit" value="Add Sandwich">
+    </div>
+  <% else %>
+    <!-- Edit Button -->
+    <div class="form-group">
+      <input type="submit" value="Edit Sandwich">
+    </div>
+  <% end %>
+</form>

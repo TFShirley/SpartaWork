@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  margin-left: 0;
+}
+
+.header {
+  background: #1abc9c;
+  color: white;
+  text-align: center;
+  padding: 60px;
+}
+
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+.navbar a{
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.navbar a:hover {
+  /* find all a in navbar and do this when the
+  cursor hovers over it */
+  background: #ddd;
+  color: black;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+.side {
+  flex: 25%;
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+.main {
+  flex: 75%;
+  background-color: white;
+  padding: 20px;
+}
+
+.img {
+  width: 100%;
+  background-color: gainsboro;
+  text-align: center;
+  padding: 20px;
+}
+
+.img-row {
+  background: #333;
+  flex: 1;
+  padding: 20px;
+}
+
+.content {
+  flex: 1;
+  background-color: gainsboro;
+  padding: 20px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #999;
+  padding: 10px;
+}

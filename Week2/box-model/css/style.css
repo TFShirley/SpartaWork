@@ -1,0 +1,59 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: gainsboro;
+  height: 100vh;
+  /* vh is viewpoint height */
+}
+
+nav {
+  background-color: pink;
+  width: 100%;
+  /* 100% width will take up all of the available width */
+}
+
+a {
+  color:inherit;
+  text-decoration: none;
+}
+
+.heading {
+  background-color: magenta;
+  color: white;
+  font-family: monospace;
+  font-size: 128px;
+  height: 20%;
+}
+
+.heading div {
+  display: inline-block;
+}
+
+.heading-image {
+  height: 100%;
+  width: 12vw;
+  background-color: cyan;
+  border-radius: 49%
+}
+
+.site-name {
+  float: right;
+}
+
+.main-content {
+  /* This is how to separate content into columns */
+  column-count: 3;
+  column-gap: 0px;
+}
+
+section {
+  background-color: white;
+}
+
+.image {
+  background: pink;
+  height: 200px;
+}

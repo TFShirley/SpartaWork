@@ -1,0 +1,54 @@
+
+@keyframes movement {
+  from {left:200px}
+  to{left:400px}
+}
+
+@keyframes grow {
+  from {height:200px}
+  to {height:400px}
+}
+
+@keyframes color-change {
+  0%  {background-color: lightgoldenrodyellow;}
+  20% {background-color: blue;}
+  40% {background-color: black;}
+  60% {background-color: red;}
+  80% {background-color: green;}
+  100%{background-color: lightgoldenrodyellow;}
+}
+
+.box1 {
+  /* animation: movement;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite; */
+  animation:
+  grow 3s infinite alternate,
+  movement 5s infinite alternate,
+  color-change 15s infinite;
+  /* background-color: palevioletred; */
+  border-radius: 49%;
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+.box1:hover {
+  background-color: hotpink;ß
+}
+
+.box1:active {
+  background-color: mediumvioletred;
+}
+
+/* input:focus{
+  background-color: indigo;
+  color: white;
+} */
+
+
+
+.box2 {
+
+}
